@@ -84,11 +84,40 @@ cd backend
 npm start
 ```
 
-Start the bias-detection API:
 
-```bash
-cd bias-detector
-python app.py
+## Usage
+
+1. Open the application in your browser.
+2. Add symbols to your watchlist.
+3. Upload a CSV or Excel file containing your trading history.
+4. Review the generated summary statistics and bias cards.
+5. Use the recommendations to identify potential behavioural risks in your trading activity.
+
+## Project Structure
+
+```text
+MarketPulse/
+├── frontend/          # User interface and client-side application
+├── backend/           # Node.js/Express chat and application services
+├── bias-detector/     # Python API for trade-data analysis
+└── README.md
 ```
 
-Update these commands to match your actual
+## Roadmap
+
+- Add persistent user accounts and saved trade history
+- Improve charting and historical performance visualization
+- Expand bias detection with additional trading-behaviour models
+- Add automated testing for API endpoints and data validation
+- Deploy the frontend and backend services
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Author
+
+**Cole Neild**  
+[LinkedIn](https://www.linkedin.com/in/cole-neild/)  
+[GitHub](https://github.com/cole98ster)
